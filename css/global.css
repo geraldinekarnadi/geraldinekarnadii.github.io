@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+}
+ .containerblakang {
+   
+        height: auto;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+ }
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #313131;
+  z-index: 10;
+}
+
+main {
+  width: 1024px;
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav main {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+nav main a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 10px;
+  padding-right: 15px;
+}
+
+nav main a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+nav .selalukananatas {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-color: olive;
+  border-radius: 15px;
+}
+
+section {
+  width: 100%;
+  height: 120vh;
+  position: relative;
+}
+
+section.emailsfull {
+  background-image: url('../image/email.jpg');
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+section.columnsfull {
+  background-image: url('../image/columns.png');
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+section.underliningfull {
+  background-image: url('../image/underlining.jpg');
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+section.centeredtextfull {
+  background-image: url('../image/centeredtext.jpg');
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+section.full {
+  background-image: url('../image/bg.jpg');
+   background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+section .melayang {
+  position: absolute;
+  top: 10px;
+  width: 40%;
+  height: 200px;
+  padding-top: 100px;
+  /*background-color: pink;*/
+}
+
+section .footer {
+  position: fixed;
+  width: 100vw;
+  height: 300px;
+  color: black;
+  /*background-color: pink;*/
+}
+.atas {
+  width: 70%;
+  padding-top: 40px;
+  margin-left:auto;
+  margin-right: auto;
+ 
+    /*background-color: pink;*/
+}
+.masukdalem {
+  width: 60%;
+  padding-top: 50px;
+  margin-left:auto;
+  margin-right: auto;
+    /*background-color: pink;*/
+}
+.bullets {
+  width: 60%;
+  padding-top: 50px;
+  margin-left:auto;
+  margin-right: auto;
+    /*background-color: pink;*/
+}
+.centered {
+  width: 60%;
+  padding-top: 50px;
+  margin-left:auto;
+  margin-right: auto;
+  text-align: center;
+    /*background-color: pink;*/
+}
+.bawah {
+  position: relative;
+  top: 100%;
+  margin-left:auto;
+  margin-right: auto;
+  width: 50%;
+  height: 400px;
+  padding-top: 100px;
+  float: left;
+  /*background-color: pink;*/
+}
+/**/
+
+.footer {
+  background-color: black;
+  margin-top:20%;
+  height:300px;
+  position:relative;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  margin left:0;
+}
+
+h2 {
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  
+}
+
+h3 {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  margin-top: 40px;
+  font-style: italic;
+}
+
+h5 {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  margin-top: 50px;
+
+}
+h6 {
+  font-size: 10px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  margin-top: 20px;
+}
+p {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+/**/
+@media (max-width: 1024px) {
+  
+  section {
+    width: 100vw;
+    
+  }
+   .containerblakang {
+       width:100vw;
+        height: auto;
+        background-color: white;
+        margin-left: 0;
+        margin-right: 0;
+        background-position: fixed;
+ }
+ .centeredtextfull {
+  background-image: url('../image/bg.jpg');
+  background-size: cover;
+    background-repeat: no-repeat;
+  background-position: top left;
+  width: 100vw;
+  }
+  
+  main {
+    width: 100vw;
+  }
+  
+  section .left, section .right {
+    width: 100%;
+    height: 50vh;
+  }
+  
+  section .full {
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+  section .melayang {
+  top: 100px;
+  width: 100%;
+  height: 400px;
+  padding-top: 100px;
+  left: 0;
+}
+
+  .main_container {
+  width: 100vw;
+  height: 30vh;
+}
+
+  
+  section .left, section .right {
+    width: 100vw;
+    height: 50vh;
+  }
+  
+  h1 {
+  font-size: 110px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  margin-left: 10%;
+  margin-top: 20%;
+}
+  h2 {
+  font-size: 80px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  margin-bottom: ;
+  }
+  
+  h4 {
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  margin-top: 40px;
+  font-style: italic;
+}
+
+  h3 {
+  font-size: 45px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+  p {
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  line-height: 50px;
+  margin-top: 30px;
+}
+  section .bawah {
+  position: relative;
+  top: 100%;
+  margin-left: 10%;
+  margin-right: auto;
+  width: 80%;
+  height: 400px;
+  padding-top: 10%;
+  float: left;
+  /*background-color: pink;*/
+  }
+  
+.footer {
+  background-color: black;
+  margin-top: 80%;
+  height: 60vh;
+  position: relative;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8%;
+  background-color: #313131;
+  padding-top: 1%;
+  z-index: 10;
+}
+
+main {
+  width: 1024px;
+  padding-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+nav main a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  padding-top: 10px;
+  padding-right: 15px;
+}
+
+nav main a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+nav .selalukananatas {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: olive;
+  border-radius: 50px;
+}
+
+}
